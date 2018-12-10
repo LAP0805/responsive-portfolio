@@ -152,3 +152,6 @@ div.relative {
         height: 5vh;
     }
 }
+@media screen and  (max-width:768px) {
+    
+}
