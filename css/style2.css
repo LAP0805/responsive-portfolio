@@ -31,7 +31,7 @@ header {
     border-bottom-color: #c2bdbd;
 
 }
-.navnav {
+nav {
     width: 100%;
     position: absolute;
     float: left;
@@ -131,24 +131,58 @@ div.relative {
     font-size: 18px;
     font-family: 'Times New Roman', Times, serif;
 }
+
 @media screen and (max-width:640px) {
-    .navnav {
-        text-align: center;
-        width:100%;
-        top: 70px;
-        left:15px;
+
+    header {
+        position:relative;
+        margin:0;
+        padding: 0;
+        height: 100px;
     }
-    .box1 {
-        top:-80px;
-        padding: 30px 20px;
-        width: 100%;
-        left:-60px;
-        height: 20px;
+    .me {
+        float:none;
     }
     section {
-        width:80vw;
+        width: 80vw;
+        margin: 20px 20px;
     }
     footer {
         height: 5vh;
+    }
+    nav {
+        position: absolute;
+        top: 0%;
+    }
+    .box1 {
+        width: 100%;
+        background: #777777;
+    }
+}
+@media screen and (max-width:768px) {
+    section {
+        width: 80vw;
+        margin: 20px 20px;
+    }
+    .box1 {
+        width: 30%;
+        margin:0;
+        padding: 30px 10px;
+        left: 0%;
+        top: -120%;
+        height: 160%;
+    }
+    nav {
+        right: -15%;
+        top: 30%;
+        text-align:right;
+    }
+}
+@media screen and (max-width:980px) {
+    section {
+        width:80vw;
+    }
+    .portpics {
+        width: 250px;
     }
 }
