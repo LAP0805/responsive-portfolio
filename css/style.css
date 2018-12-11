@@ -132,32 +132,66 @@ div.relative {
     font-family: 'Times New Roman', Times, serif;
 }
 
-@media screen and (max-width:640px) {
-    header{
-        position:static;
+
+@media screen and (max-width:980px) {
+  section {
+      width:80vw;
+  }
+  .navnav {
+      left: -40px;
+  }
+  .box1 {
+      top: -120%;
+      left: 0px;
+      padding: 30px;
+      margin: 0px;
+      height: 160%;
+  }
 }
+
+@media screen and (max-width:768px) {
+    header {
+        position:static;
+    }
     .navnav {
-        top: 13%;
-        left: -100px;
+        
+        text-align: right;
+        padding: 10px;
     }
     .box1 {
-        width: 100%;
-        top: -300%;
-        height: 20px;
-        left: 50px;
+        left:0px;
+        top: -105%;
+        padding: 50px 30px;
+        height: 40%;
     }
     section {
-        width:85vw;
-        padding: 5px 10px;
-        overflow:hidden;
+        width:80vw;
+    }
+    .portpics {
+        max-height: 150px;
+        max-width:250px;
     }
     footer {
         height: 5vh;
     }
-    .portpics {
-        margin: 0px;
-        padding: 0px;
-        max-width:300px;
-        max-height:200px;
+}
+@media screen and (max-width:640px) {
+    header {
+        position:static;
+    }
+    .navnav {
+        top:60px;
+        text-align: center;
+        left: 0px;
+    }
+    .box1 {
+        height: 50%;
+        padding: 20px;
+        width: 100%;
+        left: -5px;
+        top: -60px;
+    }
+    footer {
+        height: 5vh;
     }
 }
