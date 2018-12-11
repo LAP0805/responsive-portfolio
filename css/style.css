@@ -132,13 +132,27 @@ div.relative {
     font-family: 'Times New Roman', Times, serif;
 }
 
-
+@media screen and (max-width:1000px){
+    section {
+        width:80vw;
+    }
+    .navnav {
+        left: -30px;
+    }
+    .box1 {
+        top: -120%;
+        left: 0px;
+        padding: 30px;
+        margin: 0px;
+        height: 160%;
+    }
+}
 @media screen and (max-width:980px) {
   section {
       width:80vw;
   }
   .navnav {
-      left: -40px;
+      left: -30px;
   }
   .box1 {
       top: -120%;
@@ -193,5 +207,8 @@ div.relative {
     }
     footer {
         height: 5vh;
+    }
+    .me {
+        float:none;
     }
 }
