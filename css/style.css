@@ -147,9 +147,17 @@ div.relative {
         left: 50px;
     }
     section {
-        width:80vw;
+        width:85vw;
+        padding: 5px 10px;
+        overflow:hidden;
     }
     footer {
         height: 5vh;
+    }
+    .portpics {
+        margin: 0px;
+        padding: 0px;
+        max-width:300px;
+        max-height:200px;
     }
 }
