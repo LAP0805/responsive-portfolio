@@ -131,22 +131,20 @@ div.relative {
     font-size: 18px;
     font-family: 'Times New Roman', Times, serif;
 }
-<<<<<<< HEAD
+
 @media screen and (max-width:640px) {
+    header{
+        position:static;
+}
     .navnav {
-        text-align: center;
-        width:100%;
-        top: 70px;
-        left:15px;
-=======
->>>>>>> 0286b07e87041e67db356a5235580605f8d67caf
+        top: 13%;
+        left: -100px;
     }
     .box1 {
-        top:-80px;
-        padding: 30px 20px;
         width: 100%;
-        left:-60px;
+        top: -300%;
         height: 20px;
+        left: 50px;
     }
     section {
         width:80vw;
@@ -155,37 +153,3 @@ div.relative {
         height: 5vh;
     }
 }
-<<<<<<< HEAD
-@media screen and  (max-width:768px) {
-    
-}
-=======
-@media screen and (max-width:768px) {
-    section {
-        width: 80vw;
-        margin: 20px 20px;
-    }
-    .box1 {
-        width: 30%;
-        margin:0;
-        padding: 30px 10px;
-        left: 0%;
-        top: -120%;
-        height: 160%;
-    }
-    nav {
-        right: -15%;
-        top: 30%;
-        text-align:right;
-    }
-}
-@media screen and (max-width:980px) {
-    section {
-        width:80vw;
-    }
-    .portpics {
-        width: 250px;
-    }
-}
-
->>>>>>> 0286b07e87041e67db356a5235580605f8d67caf
