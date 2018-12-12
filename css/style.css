@@ -105,15 +105,14 @@ input {
     height: 200px;
 
     }
-div.relative {
+.relative {
     position: relative;
     margin: 10px 10px;
-    overflow: hidden;
     float:left;
 }
 .portpics {
-    width: 400px;
-    height:200px;
+    width: 25vw;
+    height:15vw;
 }
 .portpics:hover {
     opacity: 0.8;
@@ -132,7 +131,7 @@ div.relative {
     font-family: 'Times New Roman', Times, serif;
 }
 
-@media screen and (max-width:1000px){
+  @media screen and (min-width:995px) and (max-width:1215px){
     section {
         width:80vw;
     }
@@ -146,8 +145,27 @@ div.relative {
         margin: 0px;
         height: 160%;
     }
+} 
+@media screen and (min-width:1200px) and (max-width:1215px) {
+    section {
+        width:80vw;
+    }
+    .navnav {
+        left: -30px;
+    }
+    .box1 {
+        top: -120%;
+        left: 0px;
+        padding: 30px;
+        margin: 0px;
+        height: 160%;
+    }
+    .portpics {
+        width: 28vw;
+        height:18vw;
+    }
 }
-@media screen and (max-width:980px) {
+@media screen and (max-width:1005px) {
   section {
       width:80vw;
   }
@@ -160,6 +178,10 @@ div.relative {
       padding: 30px;
       margin: 0px;
       height: 160%;
+  }
+  .portpics {
+      width: 275px;
+      height:175px;
   }
 }
 
@@ -182,8 +204,13 @@ div.relative {
         width:80vw;
     }
     .portpics {
-        max-height: 150px;
-        max-width:250px;
+        height: 20vw;
+        width:30vw;
+        margin-left: 30px;
+    }
+    .relative h2 {
+        margin-left:30px;
+        width:30vw;
     }
     footer {
         height: 5vh;
@@ -205,10 +232,22 @@ div.relative {
         left: -5px;
         top: -60px;
     }
+    section {
+        width: 80vw;
+    }
     footer {
         height: 5vh;
     }
     .me {
         float:none;
     }
-}
+    .portpics {
+        margin: 20px 20px;
+        min-height: 45vw;
+        min-width:70vw;
+    }
+    .relative h2 {
+        margin: 20px 20px;
+        width: 70vw;
+    }
+} 
